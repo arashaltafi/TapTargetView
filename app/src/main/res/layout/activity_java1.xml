@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp"
+    tools:context=".tapTargetView1.java.JavaActivity1">
+
+    <com.google.android.material.button.MaterialButton
+        android:background="@android:color/transparent"
+        android:textColor="@color/black"
+        android:layout_alignParentTop="true"
+        android:id="@+id/btn_tap_java_1"
+        android:layout_width="match_parent"
+        android:text="Sample Tap Target with sharedPreferences"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:id="@+id/btn_tap_java_2"
+        android:layout_width="match_parent"
+        android:text="Sample Tap Target 2"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

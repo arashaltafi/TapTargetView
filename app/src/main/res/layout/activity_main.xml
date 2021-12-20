@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="50dp"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<!--    Java-->
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:text="TapTargetView 1 Java"
+        android:id="@+id/btn_tap_target_view_1"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:text="TapTargetView 2 Java"
+        android:id="@+id/btn_tap_target_view_2"
+        android:layout_height="wrap_content"/>
+
+<!--    Kotlin-->
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:text="TapTargetView 1 Kotlin"
+        android:id="@+id/btn_tap_target_view_3"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:text="TapTargetView 2 Kotlin"
+        android:id="@+id/btn_tap_target_view_4"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
